@@ -1,0 +1,11 @@
+[package]
+name = "db_browser_lite"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.29.0"
+egui = "0.29.0"
+sqlx = { version = "0.8", features = ["sqlite", "postgres", "mysql", "runtime-tokio-native-tls"] }
+tokio = { version = "1", features = ["full"] }
+rfd = "0.15"
