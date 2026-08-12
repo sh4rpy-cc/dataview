@@ -1,4 +1,4 @@
-# dataview
+# dataview v 0.1
 
 Удобный и быстрый просмотрщик SQLite, PostgreSQL и MySQL баз данных, написанный на Rust.
 
